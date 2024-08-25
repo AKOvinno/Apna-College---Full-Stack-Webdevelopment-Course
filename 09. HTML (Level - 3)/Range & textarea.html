@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Range Input Element</title>
+  </head>
+  <body>
+    <div>
+      <form action="/server">
+        <label for="vol">Select your volume level : </label>
+        <input type="range" id="vol" name="vol" step="10" value="80" />
+        <button type="submit">Submit</button>
+        <br /><br />
+        <label for="feedback">Please give your valuable feedback: </label>
+        <textarea
+          name="feedback"
+          id="feedback"
+          rows="10"
+          cols="50"
+          placeholder="Write your valuable feedback"
+        ></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
