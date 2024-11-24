@@ -1,0 +1,89 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+h1,
+h3 {
+  color: #b92b27;
+}
+#login {
+  background-color: black;
+  color: white;
+}
+#signup {
+  background-color: #b92b27;
+  color: white;
+}
+/* .follow {
+  text-decoration: none;
+  color: darkblue;
+} */
+/* Selecting all anchor tags in one class */
+.post a {
+  text-decoration: none;
+  color: darkblue;
+}
+/* Descendant Selector - Anchor tags inside nav tag */
+/* nav a {
+  text-decoration: none;
+} */
+nav ul li {
+  color: Green;
+}
+.upvote {
+  background-color: green;
+  color: white;
+}
+/* Sibling Combinator */
+p + h3 {
+  text-decoration: underline;
+}
+.upvote + button {
+  background-color: cornflowerblue;
+  color: darkblue;
+}
+/* Child Combinator */
+div > input {
+  background-color: blanchedalmond;
+}
+/* Attribute Selector   */
+input[type="text"] {
+  color: red;
+}
+input[type="password"] {
+  color: green;
+}
+/* Pseudo Class */
+button:hover {
+  background-color: black;
+  color: white;
+}
+h3:hover {
+  text-decoration: none;
+}
+button:active {
+  background-color: pink;
+  color: black;
+}
+p:active {
+  color: black;
+  font-weight: bold;
+}
+input[type="radio"]:checked + label {
+  color: red;
+  font-weight: bold;
+}
+div:nth-of-type(0) {
+  background-color: yellow;
+}
+/* Pseudo Element */
+h1::first-letter {
+  color: green;
+  font-size: 50px;
+}
+p::first-line {
+  color: green;
+}
+p::selection {
+  background-color: black;
+  color: white;
+}
