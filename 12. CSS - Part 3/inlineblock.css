@@ -1,0 +1,24 @@
+/* div {
+  height: 200px;
+  width: 200px;
+  background-color: greenyellow;
+  border: 2px solid black;
+  margin: 5px;
+  /* display: inline; It won't work */
+/* display: inline-block; */
+/* } */
+/* #third {
+  display: none;
+} */
+#third {
+  height: 500px;
+  width: 400px;
+  background-color: pink;
+  margin-left: 10%;
+}
+#inner {
+  height: 100px;
+  width: 100px;
+  background-color: cornflowerblue;
+  margin-left: 10%;
+}
