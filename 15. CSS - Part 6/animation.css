@@ -1,0 +1,19 @@
+.box {
+  height: 100px;
+  width: 300px;
+  background-color: pink;
+
+  animation-name: fontAnimation;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 3;
+  animation-direction: normal;
+}
+@keyframes fontAnimation {
+  from {
+    font-size: 20px;
+  }
+  to {
+    font-size: 40px;
+  }
+}
